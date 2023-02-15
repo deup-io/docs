@@ -1,0 +1,63 @@
+site_name: Deup Docs
+site_url: https://docs.deup.io
+
+theme:
+  name: material
+  palette:
+    - primary: black
+  language: 'zh'
+  icon:
+    logo: material/signature-freehand
+  features:
+    - content.code.copy
+    - content.code.annotate
+
+extra:
+  search:
+    language: 'jp'
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Block: block.md
+  - BlockType: block-type.md
+  - Deup: deup.md
+  - Page: blocks/page.md
+  - PageAttributes: blocks/page-attributes.md
+  - Text: blocks/text.md
+  - TextAttributes: blocks/text-attributes.md
+  - Image: blocks/image.md
+  - ImageAttributes: blocks/image-attributes.md
+  - Video: blocks/video.md
+  - VideoAttributes: blocks/video-attributes.md
