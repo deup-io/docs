@@ -1,10 +1,10 @@
 # Page
 
-页面类型, 可以包含任意子块, 继承自 `Block`.
+页面类型, 可以包含任意子块, 继承自 [`Block`](../block.md).
 
 ### new Page()
 
-Constructs a new page.
+[`PageAttributes`](page-attributes.md), 构造函数.
 
 ```typescript
 new Page(attr: PageAttributes, children?: Block[])

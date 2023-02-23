@@ -5,6 +5,9 @@
 ```typescript
 interface ImageAttributes {
   url: string;
+  title?: string;
+  width?: number;
+  height?: number;
   headers?: Record<string, string>;
 }
 ```
@@ -12,6 +15,18 @@ interface ImageAttributes {
 ### url
 
 图片地址, 必填, 字符串类型.
+
+### title
+
+图片标题.
+
+### width
+
+图片宽度.
+
+### height
+
+图片高度.
 
 ### headers
 

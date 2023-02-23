@@ -23,17 +23,28 @@ import Deup, { Page, Text, Image, Video } from '@deup-io/core'
 Deup.render(
   new Page(
     {
-      title: 'Hello World',
-      description: 'Hello World',
+      title: 'This is a page title.',
+      description: 'This is a page description.',
+      tags: [
+        { name: 'tag1', color: '#000000' },
+        { name: 'tag2', color: '#ffffff' },
+      ],
     },
     [
-      new Text({ content: 'Hello World' }),
+      new Text({ content: 'headline1', level: TextLevel.H1 }),
+      new Text({ content: 'headline2', level: TextLevel.H2 }),
+      new Text({ content: 'headline3', level: TextLevel.H3 }),
+      new Text({ content: 'headline4', level: TextLevel.H4 }),
+      new Text({ content: 'headline5', level: TextLevel.H5 }),
+      new Text({ content: 'headline6', level: TextLevel.H6 }),
       new Image({
+        title: 'image',
         url: 'https://picsum.photos/200/300',
         headers: { 'X-Header': 'value' },
       }),
       new Video({
-        url: 'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4',
+        title: 'video',
+        url: 'https://sf1-hscdn-tos.pstatp.com/obj/media-fe/xgplayer_doc_video/flv/xgplayer-demo-720p.flv',
         headers: { 'X-Header': 'value' },
       }),
     ],

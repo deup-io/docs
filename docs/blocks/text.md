@@ -1,10 +1,10 @@
 # Text
 
-文本类型, 继承自 `Block`.
+文本类型, 继承自 [`Block`](../block.md).
 
 ### new Text()
 
-Constructs a new text.
+[`TextAttributes`](text-attributes.md), 构造函数.
 
 ```typescript
 new Text(attr: TextAttributes)

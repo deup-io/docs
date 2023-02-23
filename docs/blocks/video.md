@@ -1,10 +1,10 @@
 # Video
 
-视频类型, 继承自 `Block`.
+视频类型, 继承自 [`Block`](../block.md).
 
 ### new Video()
 
-Constructs a new video.
+[`VideoAttributes`](video-attributes.md), 构造函数.
 
 ```typescript
 new Video(attr: VideoAttributes)
@@ -14,7 +14,7 @@ new Video(attr: VideoAttributes)
 
 ```typescript
 new Video({
-  url: 'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4',
+  url: 'https://sf1-hscdn-tos.pstatp.com/obj/media-fe/xgplayer_doc_video/flv/xgplayer-demo-720p.flv',
   headers: { 'X-Header': 'value' },
 })
 ```

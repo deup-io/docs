@@ -4,7 +4,7 @@
 
 ### type
 
-块类型.
+[`BlockType`](block-type.md), 块类型.
 
 ```typescript
 protected type: BlockType

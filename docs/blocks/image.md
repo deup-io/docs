@@ -1,10 +1,10 @@
 # Image
 
-图片类型, 继承自 `Block`.
+图片类型, 继承自 [`Block`](../block.md).
 
 ### new Image()
 
-Constructs a new image.
+[`ImageAttributes`](image-attributes.md), 构造函数.
 
 ```typescript
 new Image(attr: ImageAttributes)

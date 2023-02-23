@@ -6,6 +6,7 @@
 interface PageAttributes {
   title: string;
   description?: string;
+  tags?: Tag[];
 }
 ```
 
@@ -16,3 +17,7 @@ interface PageAttributes {
 ### description
 
 页面的内容描述, 可选, 字符串类型.
+
+### tags
+
+[`Tag`](../tag.md), 页面标签.

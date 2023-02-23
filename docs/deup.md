@@ -12,8 +12,8 @@ public static isDeupApp: boolean
 
 ### render
 
-最终的渲染方法, 调用这个方法就能看到文章的预览效果.
+最终的渲染方法, 调用这个方法就能看到文章的预览效果, 目前仅支持根节点为 [`Page`](blocks/page.md) 类型.
 
 ```typescript
-public static render(block: Block): void
+public static render(page: Page): void
 ```
