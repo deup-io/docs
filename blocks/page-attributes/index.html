@@ -245,6 +245,21 @@
   
   
     <li class="md-nav__item">
+      <a href="../../tag/" class="md-nav__link">
+        Tag
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../page/" class="md-nav__link">
         Page
       </a>
@@ -307,6 +322,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#tags" class="md-nav__link">
+    tags
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -325,6 +347,21 @@
     <li class="md-nav__item">
       <a href="../text/" class="md-nav__link">
         Text
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../text-level/" class="md-nav__link">
+        TextLevel
       </a>
     </li>
   
@@ -445,6 +482,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#tags" class="md-nav__link">
+    tags
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -466,12 +510,15 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">interface</span><span class="w"> </span><span class="nx">PageAttributes</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nx">title</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nx">description?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="p">}</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nx">tags?</span><span class="o">:</span><span class="w"> </span><span class="kt">Tag</span><span class="p">[];</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">}</span>
 </code></pre></div>
 <h3 id="title">title<a class="headerlink" href="#title" title="Permanent link">&para;</a></h3>
 <p>页面的标题, 必填, 字符串类型.</p>
 <h3 id="description">description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
 <p>页面的内容描述, 可选, 字符串类型.</p>
+<h3 id="tags">tags<a class="headerlink" href="#tags" title="Permanent link">&para;</a></h3>
+<p><a href="../../tag/"><code>Tag</code></a>, 页面标签.</p>
 
 
 
