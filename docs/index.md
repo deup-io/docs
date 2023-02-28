@@ -18,7 +18,7 @@ npm install @deup-io/core
 ## 示例
 
 ```typescript
-import Deup, { Page, Text, Image, Video } from '@deup-io/core'
+import Deup, { Page, Text, Image, Video } from '@deup-io/core';
 
 Deup.render(
   new Page(
