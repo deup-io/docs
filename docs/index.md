@@ -18,7 +18,7 @@ npm install @deup-io/core
 ## 示例
 
 ```typescript
-import Deup, { Page, Text, Image, Video, TextLevel } from '@deup-io/core';
+import Deup, { Page, Text, Image, Video, TextLevel, RichText } from '@deup-io/core';
 
 Deup.render(
   new Page(
@@ -26,8 +26,8 @@ Deup.render(
       title: 'This is a page title.',
       description: 'This is a page description.',
       tags: [
-        { name: 'tag1', color: '#000000' },
-        { name: 'tag2', color: '#ffffff' },
+        { name: 'tag1', color: '#8bdb52' },
+        { name: 'tag2', color: '#3c7ad1' },
       ],
     },
     [
@@ -36,7 +36,17 @@ Deup.render(
       new Text({ content: 'headline3', level: TextLevel.H3 }),
       new Text({ content: 'headline4', level: TextLevel.H4 }),
       new Text({ content: 'headline5', level: TextLevel.H5 }),
-      new Text({ content: 'headline6', level: TextLevel.H6 }),
+      new Text({ content: 'headline6', level: TextLevel.H6, background: '#8bdb52' }),
+      new RichText([
+        new Text({ content: 'This is a text.', color: '3c7ad1', underline: true, strikethrough: true }),
+        new Text({ content: '    ' }),
+        new Text({ content: 'This is a text.', background: '#8bdb52', level: TextLevel.H5 }),
+        new Text({ content: 'https://docs.deup.io', link: 'https://docs.deup.io', color: '#3c7ad1', underline: true }),
+        new Text({ content: 'This is a text.', bold: true }),
+        new Text({ content: 'This is a text.', italic: true }),
+        new Text({ content: 'This is a text.', underline: true }),
+        new Text({ content: 'This is a text.', strikethrough: true }),
+      ]),
       new Image({
         title: 'image',
         url: 'https://picsum.photos/200/300',

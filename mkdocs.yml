@@ -57,6 +57,7 @@ nav:
   - Page: blocks/page.md
   - PageAttributes: blocks/page-attributes.md
   - Text: blocks/text.md
+  - RichText: blocks/rich-text.md
   - TextLevel: blocks/text-level.md
   - TextAttributes: blocks/text-attributes.md
   - Image: blocks/image.md

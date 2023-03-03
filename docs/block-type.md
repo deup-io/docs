@@ -6,6 +6,7 @@
 enum BlockType {
   PAGE = 'page',
   TEXT = 'text',
+  RICH_TEXT = 'richText',
   IMAGE = 'image',
   VIDEO = 'video',
 }
@@ -18,6 +19,10 @@ enum BlockType {
 ### text
 
 文本类型, `BlockType.TEXT`
+
+### richText
+
+富文本类型, `BlockType.RICH_TEXT`
 
 ### image
 
