@@ -8,10 +8,10 @@
       
       
       
-        <link rel="canonical" href="https://docs.deup.io/blocks/text-level/">
+        <link rel="canonical" href="https://docs.deup.io/blocks/text-heading/">
       
       
-        <link rel="prev" href="../rich-text/">
+        <link rel="prev" href="../text/">
       
       
         <link rel="next" href="../text-attributes/">
@@ -21,7 +21,7 @@
     
     
       
-        <title>TextLevel - Deup Docs</title>
+        <title>TextHeading - Deup Docs</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#textlevel" class="md-skip">
+        <a href="#textheading" class="md-skip">
           跳转至
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              TextLevel
+              TextHeading
             
           </span>
         </div>
@@ -303,21 +303,6 @@
 
   
   
-  
-    <li class="md-nav__item">
-      <a href="../rich-text/" class="md-nav__link">
-        RichText
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
     
   
   
@@ -330,7 +315,7 @@
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        TextLevel
+        TextHeading
       </a>
       
     </li>
@@ -347,6 +332,21 @@
     <li class="md-nav__item">
       <a href="../text-attributes/" class="md-nav__link">
         TextAttributes
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rich-text/" class="md-nav__link">
+        RichText
       </a>
     </li>
   
@@ -446,19 +446,19 @@
 
 
 
-<h1 id="textlevel">TextLevel<a class="headerlink" href="#textlevel" title="Permanent link">&para;</a></h1>
+<h1 id="textheading">TextHeading<a class="headerlink" href="#textheading" title="Permanent link">&para;</a></h1>
 <p>文本级别, 枚举类型.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">enum</span><span class="w"> </span><span class="nx">TextLevel</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nx">H1</span><span class="p">,</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nx">H2</span><span class="p">,</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nx">H3</span><span class="p">,</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="nx">H4</span><span class="p">,</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">  </span><span class="nx">H5</span><span class="p">,</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">  </span><span class="nx">H6</span><span class="p">,</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">export</span><span class="w"> </span><span class="kd">enum</span><span class="w"> </span><span class="nx">TextHeading</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nx">H1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;h1&#39;</span><span class="p">,</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nx">H2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;h2&#39;</span><span class="p">,</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nx">H3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;h3&#39;</span><span class="p">,</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="nx">H4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;h4&#39;</span><span class="p">,</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">  </span><span class="nx">H5</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;h5&#39;</span><span class="p">,</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">  </span><span class="nx">H6</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;h6&#39;</span><span class="p">,</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="p">}</span>
 </code></pre></div>
 <p>示例:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="ow">new</span><span class="w"> </span><span class="nx">Text</span><span class="p">({</span><span class="w"> </span><span class="nx">content</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;headline1&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="kt">TextLevel.H1</span><span class="w"> </span><span class="p">}),</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="ow">new</span><span class="w"> </span><span class="nx">Text</span><span class="p">({</span><span class="w"> </span><span class="nx">content</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;headline1&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">heading</span><span class="o">:</span><span class="w"> </span><span class="kt">TextHeading.H1</span><span class="w"> </span><span class="p">}),</span>
 </code></pre></div>
 
 
