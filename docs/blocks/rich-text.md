@@ -14,7 +14,7 @@ new RichText(children: Text[])
 
 ```typescript
 new RichText([
-  new Text({ content: 'This is a text.', background: '#8bdb52', level: TextLevel.H5 }),
+  new Text({ content: 'This is a text.', background: '#8bdb52', heading: TextHeading.H5 }),
   new Text({ content: 'https://docs.deup.io', link: 'https://docs.deup.io', color: '#3c7ad1', underline: true }),
 ])
 ```

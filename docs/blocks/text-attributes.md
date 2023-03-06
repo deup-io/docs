@@ -8,7 +8,7 @@ interface TextAttributes {
   color?: string;
   background?: string;
   link?: string;
-  level?: TextLevel;
+  heading?: TextHeading | string;
   bold?: boolean;
   italic?: boolean;
   underline?: boolean;
@@ -32,9 +32,9 @@ interface TextAttributes {
 
 跳转链接, 示例: `https://docs.deup.io`.
 
-### level
+### heading
 
-[`TextLevel`](text-level.md), 文本级别.
+[`TextHeading`](text-heading.md), 文本级别.
 
 ### bold
 

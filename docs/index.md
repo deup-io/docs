@@ -18,7 +18,7 @@ npm install @deup-io/core
 ## 示例
 
 ```typescript
-import Deup, { Page, Text, Image, Video, TextLevel, RichText } from '@deup-io/core';
+import Deup, { Page, Text, Image, Video, TextHeading, RichText } from '@deup-io/core';
 
 Deup.render(
   new Page(
@@ -31,12 +31,12 @@ Deup.render(
       ],
     },
     [
-      new Text({ content: 'headline1', level: TextLevel.H1 }),
-      new Text({ content: 'headline2', level: TextLevel.H2 }),
-      new Text({ content: 'headline3', level: TextLevel.H3 }),
-      new Text({ content: 'headline4', level: TextLevel.H4 }),
-      new Text({ content: 'headline5', level: TextLevel.H5 }),
-      new Text({ content: 'headline6', level: TextLevel.H6, background: '#8bdb52' }),
+      new Text({ content: 'headline1', heading: TextHeading.H1 }),
+      new Text({ content: 'headline2', heading: TextHeading.H2 }),
+      new Text({ content: 'headline3', heading: TextHeading.H3 }),
+      new Text({ content: 'headline4', heading: TextHeading.H4 }),
+      new Text({ content: 'headline5', heading: TextHeading.H5 }),
+      new Text({ content: 'headline6', heading: TextHeading.H6, background: '#8bdb52' }),
       new Image({
         title: 'image',
         url: 'https://picsum.photos/200/300',
@@ -44,8 +44,8 @@ Deup.render(
       }),
       new RichText([
         new Text({ content: 'This is a text.', color: '3c7ad1', underline: true, strikethrough: true }),
-        new Text({ content: '    ' }),
-        new Text({ content: 'This is a text.', background: '#8bdb52', level: TextLevel.H5 }),
+        new Text({ content: ' ' }),
+        new Text({ content: 'This is a text.', background: '#8bdb52', heading: TextHeading.H5 }),
         new Text({ content: 'https://docs.deup.io', link: 'https://docs.deup.io', color: '#3c7ad1', underline: true }),
         new Text({ content: 'This is a text.', bold: true }),
         new Text({ content: 'This is a text.', italic: true }),

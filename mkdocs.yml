@@ -57,9 +57,9 @@ nav:
   - Page: blocks/page.md
   - PageAttributes: blocks/page-attributes.md
   - Text: blocks/text.md
-  - RichText: blocks/rich-text.md
-  - TextLevel: blocks/text-level.md
+  - TextHeading: blocks/text-heading.md
   - TextAttributes: blocks/text-attributes.md
+  - RichText: blocks/rich-text.md
   - Image: blocks/image.md
   - ImageAttributes: blocks/image-attributes.md
   - Video: blocks/video.md
