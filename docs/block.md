@@ -24,7 +24,7 @@ protected attributes:
 
 ### children
 
-子块, 目前只有 `page`/`text/list` 类型, 才允许有子块.
+子块, 目前只有 `page/text-list` 类型, 才允许有子块.
 
 ```typescript
 protected children?: Block[]

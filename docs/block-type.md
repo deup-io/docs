@@ -20,7 +20,7 @@ enum BlockType {
 
 文本类型, `BlockType.TEXT`
 
-### text/list
+### text-list
 
 文本列表类型, `BlockType.TEXT_LIST`
 
