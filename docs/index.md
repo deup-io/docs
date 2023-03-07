@@ -18,7 +18,7 @@ npm install @deup-io/core
 ## 示例
 
 ```typescript
-import Deup, { Page, Text, Image, Video, TextHeading, RichText } from '@deup-io/core';
+import Deup, { Page, Text, Image, Video, TextHeading, TextList } from '@deup-io/core';
 
 Deup.render(
   new Page(
@@ -42,7 +42,7 @@ Deup.render(
         url: 'https://picsum.photos/200/300',
         headers: { 'X-Header': 'value' },
       }),
-      new RichText([
+      new TextList([
         new Text({ content: 'This is a text.', color: '3c7ad1', underline: true, strikethrough: true }),
         new Text({ content: ' ' }),
         new Text({ content: 'This is a text.', background: '#8bdb52', heading: TextHeading.H5 }),

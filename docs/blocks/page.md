@@ -21,3 +21,11 @@ new Page(
   [new Text({ content: 'Hello World' })],
 );
 ```
+
+### add()
+
+添加子块.
+
+```typescript
+add(block: Block): void
+```
