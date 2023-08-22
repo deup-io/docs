@@ -1,0 +1,70 @@
+site_name: Deup Docs
+site_url: https://docs.deup.io
+
+theme:
+  name: material
+  palette:
+    - primary: black
+  language: 'zh'
+  icon:
+    logo: material/signature-freehand
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - navigation.sections
+    - navigation.expand
+
+extra:
+  search:
+    language: 'jp'
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - 概览: index.md
+  - 指南:
+    - 快速开始: guide/quick-start.md
+    - Alist: guide/alist.md
+  - JS SDK 参考文档:
+    - Deup: js-sdk/deup.md
+    - Config: js-sdk/config.md
+    - Input: js-sdk/input.md
+    - Object: js-sdk/object.md
+    - ObjectType: js-sdk/object-type.md
+    - _: js-sdk/_.md
+    - $lodash: js-sdk/lodash.md
+    - $alert: js-sdk/alert.md
+    - $axios: js-sdk/axios.md
+    - $storage: js-sdk/storage.md
