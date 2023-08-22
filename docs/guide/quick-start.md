@@ -85,15 +85,15 @@ class MyPlugin extends Deup {
 }
 ```
 
-## 实现 getObjectList() 方法
+## 实现 getList() 方法
 
-`getObjectList()` 方法是用来获取对象列表的, 首页默认是空字符串 `""`。
+`getList()` 方法是用来获取对象列表的, 首页默认是空字符串 `""`。
 
 ```typescript
 class MyPlugin extends Deup {
   // ...
 
-  async getObjectList(path, offset, limit) {
+  async getList(path, offset, limit) {
     const image = (await $storage.inputs).image;
 
     return [
@@ -175,7 +175,7 @@ class MyPlugin extends Deup {
     };
   }
 
-  async getObjectList(path, offset, limit) {
+  async getList(path, offset, limit) {
     const image = (await $storage.inputs).image;
 
     return [

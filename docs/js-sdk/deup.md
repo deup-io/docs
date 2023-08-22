@@ -114,20 +114,20 @@
     }
     ```
 
-### getObjectList()
+### getList()
 
 获取对象列表, 用户访问文件夹时会调用这个方法, 返回值是对象列表 [`Object[]`](./object.md)。
 
 === "定义"
 
     ```typescript
-    abstract getObjectList(path: string, offset: number, limit: number): Promise<Object[]>
+    abstract getList(path: string, offset: number, limit: number): Promise<Object[]>
     ```
 
 === "示例"
 
     ```typescript
-    async getObjectList(path, offset, limit) {
+    async getList(path, offset, limit) {
       return [
         {
           name: '文件夹名称',
