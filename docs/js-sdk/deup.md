@@ -91,20 +91,20 @@
     }
     ```
 
-### getObject()
+### get()
 
 获取对象信息, 用户访问具体对象时会调用这个方法, 返回值是具体对象信息 [`Object`](./object.md)。
 
 === "定义"
 
     ```typescript
-    abstract getObject(path: string): Promise<Object>
+    abstract get(path: string): Promise<Object>
     ```
 
 === "示例"
 
     ```typescript
-    async getObject(path) {
+    async get(path) {
       return {
         name: '文件名称',
         type: 'image',
@@ -114,20 +114,20 @@
     }
     ```
 
-### getList()
+### list()
 
 获取对象列表, 用户访问文件夹时会调用这个方法, 返回值是对象列表 [`Object[]`](./object.md)。
 
 === "定义"
 
     ```typescript
-    abstract getList(path: string, offset: number, limit: number): Promise<Object[]>
+    abstract list(path: string, offset: number, limit: number): Promise<Object[]>
     ```
 
 === "示例"
 
     ```typescript
-    async getList(path, offset, limit) {
+    async list(path, offset, limit) {
       return [
         {
           name: '文件夹名称',

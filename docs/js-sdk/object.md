@@ -30,7 +30,7 @@ interface Object {
 
 ### path
 
-对象的路径, 如果 `path` 的值不为 `null`, 调用 `getObject` 方法时会使用 `path+name` 的值作为参数。
+对象的路径, 如果 `path` 的值不为 `null`, 获取对象内容时会使用 `path+name` 的值作为参数。
 
 ### thumbnail
 

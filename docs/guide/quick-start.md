@@ -64,15 +64,15 @@ class MyPlugin extends Deup {
 }
 ```
 
-## 实现 getObject() 方法
+## 实现 get() 方法
 
-`getObject()` 方法是用来获取具体对象信息的, 参数是对象的完整路径。
+`get()` 方法是用来获取具体对象信息的, 参数是对象的完整路径。
 
 ```typescript
 class MyPlugin extends Deup {
   // ...
 
-  async getObject(path) {
+  async get(path) {
     const image = (await $storage.inputs).image;
 
     return {
@@ -85,15 +85,15 @@ class MyPlugin extends Deup {
 }
 ```
 
-## 实现 getList() 方法
+## 实现 list() 方法
 
-`getList()` 方法是用来获取对象列表的, 首页默认是空字符串 `""`。
+`list()` 方法是用来获取对象列表的, 首页默认是空字符串 `""`。
 
 ```typescript
 class MyPlugin extends Deup {
   // ...
 
-  async getList(path, offset, limit) {
+  async list(path, offset, limit) {
     const image = (await $storage.inputs).image;
 
     return [
@@ -164,7 +164,7 @@ class MyPlugin extends Deup {
     return url != '123'; // url
   }
 
-  async getObject(path) {
+  async get(path) {
     const image = (await $storage.inputs).image;
 
     return {
@@ -175,7 +175,7 @@ class MyPlugin extends Deup {
     };
   }
 
-  async getList(path, offset, limit) {
+  async list(path, offset, limit) {
     const image = (await $storage.inputs).image;
 
     return [

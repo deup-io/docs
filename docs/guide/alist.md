@@ -101,7 +101,7 @@ class Alist extends Deup {
    * @param path
    * @returns {Promise<{thumbnail: *, size, name, modified: *, type: string, isDirectory: *, url: *}>}
    */
-  async getObject(path) {
+  async get(path) {
     if (!(await this.getUserInfo())) {
       $alert('Not login, please login first');
       return;
@@ -121,7 +121,7 @@ class Alist extends Deup {
    * @param limit
    * @returns {Promise<*>}
    */
-  async getList(path, offset, limit) {
+  async list(path, offset, limit) {
     if (!(await this.getUserInfo())) {
       $alert('Not login, please login first');
       return;
