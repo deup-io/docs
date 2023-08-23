@@ -9,6 +9,7 @@ interface Config {
   color?: string;
   background?: string | string[];
   headers?: Record<string, string>;
+  timeout?: number;
 }
 ```
 
@@ -31,3 +32,7 @@ interface Config {
 ### headers
 
 插件的请求头, 示例: `{ 'User-Agent': '...' }`。在访问第三方资源的时候会使用指定的头信息, 但是 [`Object`](./object.md) 里面如果包含了 `headers` 字段, 会覆盖这里的配置。
+
+### timeout
+
+插件的请求超时时间, 单位: 毫秒, 默认: `5000`。
