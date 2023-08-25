@@ -67,4 +67,5 @@ nav:
     - $lodash: js-sdk/lodash.md
     - $alert: js-sdk/alert.md
     - $axios: js-sdk/axios.md
+    - $cheerio: js-sdk/cheerio.md
     - $storage: js-sdk/storage.md
