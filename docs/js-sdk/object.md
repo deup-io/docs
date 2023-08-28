@@ -7,6 +7,7 @@ interface Object {
   isDirectory: boolean;
   path?: string;
   thumbnail?: string;
+  poster?: string;
   created?: string;
   modified?: string;
   size?: number;
@@ -36,6 +37,10 @@ interface Object {
 
 对象的缩略图。
 
+### poster
+
+对象的海报图。
+
 ### created
 
 对象的创建时间, 示例: `2020-01-01T00:00:00.000Z`。
@@ -56,7 +61,7 @@ interface Object {
 
 相关对象, 例如: 视频的字幕文件。
 
-PS: 视频的字幕文件会从 `related` 里面获取, 匹配后缀名为 `.srt`/`.ass`/`.vtt` 的文件。
+PS: 目前仅视频的字幕文件会从 `related` 里面获取, 匹配后缀名为 `.srt`/`.ass`/`.vtt` 的文件。
 
 ### headers
 

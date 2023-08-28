@@ -57,6 +57,11 @@ nav:
   - 指南:
     - 快速开始: guide/quick-start.md
     - Alist: guide/alist.md
+  - 视图:
+    - 列表(默认视图): layouts/list.md
+    - 网格: layouts/grid.md
+    - 图片: layouts/image.md
+    - 海报: layouts/poster.md
   - JS SDK 参考文档:
     - Deup: js-sdk/deup.md
     - Config: js-sdk/config.md

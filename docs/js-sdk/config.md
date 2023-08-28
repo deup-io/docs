@@ -6,6 +6,7 @@
 interface Config {
   name: string;
   logo?: string;
+  layout?: 'list' | 'grid' | 'image' | 'poster';
   color?: string;
   background?: string | string[];
   headers?: Record<string, string>;
@@ -20,6 +21,10 @@ interface Config {
 ### logo
 
 插件图标, 可选项, 会显示在插件列表里面。
+
+### layout
+
+插件的默认视图, 可选项, 默认: `list`。支持的视图类型有: `list`、`grid`、`image`、`poster`。
 
 ### color
 
