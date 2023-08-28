@@ -19,6 +19,9 @@ extra:
   search:
     language: 'jp'
 
+extra_javascript:
+  - 'assets/js/baidu-tongji.js'
+
 markdown_extensions:
   - abbr
   - admonition
@@ -57,6 +60,7 @@ nav:
   - 指南:
     - 快速开始: guide/quick-start.md
     - Alist: guide/alist.md
+    - Unsplash: guide/unsplash.md
   - 视图:
     - 列表(默认视图): layouts/list.md
     - 网格: layouts/grid.md

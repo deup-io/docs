@@ -46,9 +46,12 @@ class Request {
 
 class Alist extends Deup {
   /**
-   * config
+   * Define the basic configuration of the alist plugin
    *
-   * @type {{color: string, background: string[], name: string, logo: string}}
+   * color: '#FFFFFF' // The text color
+   * background: ['#4995EC', '#4BA5E9'] // The background color
+   *
+   * @type {{headers: {"User-Agent": string, "Accept-Encoding": string, "Accept-Language": string}, color: string, background: string[], name: string, logo: string}}
    */
   config = {
     name: 'Alist',
@@ -64,7 +67,7 @@ class Alist extends Deup {
   };
 
   /**
-   * inputs
+   * Define the information that needs to be entered by the user when entering the service
    *
    * @type {{password: {label: string, placeholder: string, required: boolean}, url: {label: string, placeholder: string, required: boolean}, username: {label: string, placeholder: string, required: boolean}}}
    */
@@ -74,8 +77,16 @@ class Alist extends Deup {
       required: true,
       placeholder: 'https://example.com',
     },
-    username: { label: '用户名', required: false, placeholder: 'admin(optional)' },
-    password: { label: '密码', required: false, placeholder: 'password(optional)' },
+    username: {
+      label: '用户名',
+      required: false,
+      placeholder: 'admin(optional)',
+    },
+    password: {
+      label: '密码',
+      required: false,
+      placeholder: 'password(optional)',
+    },
   };
 
   /**
@@ -96,9 +107,9 @@ class Alist extends Deup {
   }
 
   /**
-   * Get object
+   * Get information about a specific object
    *
-   * @param path
+   * @param path eg: /path/to/file
    * @returns {Promise<{thumbnail: *, size, name, modified: *, type: string, isDirectory: *, url: *}>}
    */
   async get(path) {
@@ -116,7 +127,7 @@ class Alist extends Deup {
   /**
    * Get object list
    *
-   * @param path
+   * @param path eg: /path/to/directory
    * @param offset
    * @param limit
    * @returns {Promise<*>}
@@ -170,7 +181,7 @@ class Alist extends Deup {
   }
 
   /**
-   * Refresh token
+   * Get user info & refresh token
    *
    * @returns {Promise<*>}
    */
@@ -271,5 +282,6 @@ class Alist extends Deup {
   }
 }
 
+// Register
 Deup.execute(new Alist());
 ```
