@@ -3,6 +3,14 @@
 <https://github.com/deup-io/deup/blob/master/unsplash.js>
 
 ```javascript
+/**
+ * Unsplash plugin for Deup
+ *
+ * @class Unsplash
+ * @extends {Deup}
+ * @author ZiHang Gao
+ * @see https://unsplash.com/documentation
+ */
 class Unsplash extends Deup {
   /**
    * Define the basic configuration of the unsplash plugin
