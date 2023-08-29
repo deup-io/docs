@@ -6,7 +6,7 @@ Deup 是一个浏览第三方资源的应用, 您可以在这里通过编写的 
 
 > Apple TestFlight: [https://testflight.apple.com/join/1JgZvpWZ](https://testflight.apple.com/join/1JgZvpWZ){target=_blank}
 
-> 蒲公英: [https://www.pgyer.com/deup](https://www.pgyer.com/deup)
+> 蒲公英: [https://www.pgyer.com/deup](https://www.pgyer.com/deup){target=_blank}
 
 ### 屏幕截图
 
