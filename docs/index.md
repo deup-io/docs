@@ -14,4 +14,4 @@ Deup 是一个浏览第三方资源的应用, 您可以在这里通过编写的 
 
 ![](assets/snapshots/video_player.png){ width="200" } ![](assets/snapshots/directory.png){ width="200" } ![](assets/snapshots/audio_player_list.png){ width="200" }
 
-![](assets/layouts/image/1.png){ width="200" } ![](assets/layouts/image/2.png){ width="200" } ![] ![](assets/layouts/poster/2.png){ width="200" } 
+![](assets/layouts/image/1.png){ width="200" } ![](assets/layouts/image/2.png){ width="200" } ![](assets/layouts/poster/2.png){ width="200" } 
