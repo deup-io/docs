@@ -1,6 +1,6 @@
 # Unsplash
 
-<https://github.com/deup-io/deup/blob/master/unsplash.js>
+[https://github.com/deup-io/deup/blob/master/unsplash.js](https://github.com/deup-io/deup/blob/master/unsplash.js){target=_blank}
 
 ```javascript
 /**

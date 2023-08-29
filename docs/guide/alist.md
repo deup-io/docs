@@ -1,6 +1,6 @@
 # Alist
 
-<https://github.com/deup-io/deup/blob/master/alist.js>
+[https://github.com/deup-io/deup/blob/master/alist.js](https://github.com/deup-io/deup/blob/master/alist.js){target=_blank}
 
 ```javascript
 /**
