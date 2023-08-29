@@ -4,6 +4,8 @@
 
 图片会加载 `Object.url` 字段链接, 如果该字段为空, 会尝试调用 `Deup.get` 方法来获取具体文件的详细信息。
 
+PS: 不要使用超高分辨率的图片, 可能会导致程序 OOM。
+
 ```javascript
 class ImageLayout extends Deup {
   config = {
