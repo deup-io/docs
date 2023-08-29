@@ -650,6 +650,7 @@
 <h1 id="_1">图片视图<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <p>图片视图仅展示图片类型的数据, 使用双列瀑布流的方式展示。</p>
 <p>图片会加载 <code>Object.url</code> 字段链接, 如果该字段为空, 会尝试调用 <code>Deup.get</code> 方法来获取具体文件的详细信息。</p>
+<p>PS: 不要使用超高分辨率的图片, 可能会导致程序 OOM。</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">class</span><span class="w"> </span><span class="nx">ImageLayout</span><span class="w"> </span><span class="k">extends</span><span class="w"> </span><span class="nx">Deup</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nx">config</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;图片视图&#39;</span><span class="p">,</span>
