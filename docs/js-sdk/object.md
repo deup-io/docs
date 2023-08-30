@@ -12,6 +12,7 @@ interface Object {
   modified?: string;
   size?: number;
   url?: string;
+  isLive?: boolean;
   related?: Object[];
   headers?: Record<string, string>;
 }
@@ -56,6 +57,10 @@ interface Object {
 ### url
 
 对象的调用链接。
+
+### isLive
+
+是否是直播视频流。
 
 ### related
 

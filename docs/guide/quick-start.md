@@ -21,8 +21,6 @@ class MyPlugin extends Deup {
   config = {
     name: '插件名称',
     logo: 'https://s2.loli.net/2023/08/17/dZeUNcuftSLaG41.png',
-    color: '#FFFFFF',
-    background: ['#4995EC', '#4BA5E9'],
   };
 }
 ```
@@ -146,8 +144,6 @@ class MyPlugin extends Deup {
   config = {
     name: '我的插件',
     logo: 'https://s2.loli.net/2023/08/17/dZeUNcuftSLaG41.png',
-    color: '#FFFFFF',
-    background: ['#4995EC', '#4BA5E9'],
   };
 
   inputs = {

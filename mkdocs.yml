@@ -65,6 +65,7 @@ nav:
     - 快速开始: guide/quick-start.md
     - Alist: guide/alist.md
     - Unsplash: guide/unsplash.md
+    - IPTV: guide/iptv.md
   - 视图:
     - 列表(默认视图): layouts/list.md
     - 网格: layouts/grid.md
