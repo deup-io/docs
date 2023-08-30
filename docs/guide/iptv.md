@@ -1,5 +1,7 @@
 # IPTV
 
+![](../assets/images/iptv/1.png){ width="200" } ![](../assets/images/iptv/3.png){ width="200" } ![](../assets/images/iptv/2.png){ width="200" }
+
 [https://raw.githubusercontent.com/deup-io/deup/master/iptv.js](https://raw.githubusercontent.com/deup-io/deup/master/iptv.js){target=_blank}
 
 ```javascript

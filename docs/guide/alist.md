@@ -1,6 +1,8 @@
 # Alist
 
-[https://github.com/deup-io/deup/blob/master/alist.js](https://github.com/deup-io/deup/blob/master/alist.js){target=_blank}
+![](../assets/images/alist/1.png){ width="200" } ![](../assets/images/alist/2.png){ width="200" } ![](../assets/images/alist/3.png){ width="200" }
+
+[https://raw.githubusercontent.com/deup-io/deup/master/alist.js](https://raw.githubusercontent.com/deup-io/deup/master/alist.js){target=_blank}
 
 ```javascript
 /**
