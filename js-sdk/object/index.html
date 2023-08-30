@@ -306,6 +306,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guide/iptv/" class="md-nav__link">
+        IPTV
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -592,6 +606,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#islive" class="md-nav__link">
+    isLive
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#related" class="md-nav__link">
     related
   </a>
@@ -815,6 +836,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#islive" class="md-nav__link">
+    isLive
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#related" class="md-nav__link">
     related
   </a>
@@ -859,9 +887,10 @@
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">  </span><span class="nx">modified?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">  </span><span class="nx">size?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">  </span><span class="nx">url?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">  </span><span class="nx">related?</span><span class="o">:</span><span class="w"> </span><span class="kt">Object</span><span class="p">[];</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">  </span><span class="nx">headers?</span><span class="o">:</span><span class="w"> </span><span class="kt">Record</span><span class="o">&lt;</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="o">&gt;</span><span class="p">;</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="p">}</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">  </span><span class="nx">isLive?</span><span class="o">:</span><span class="w"> </span><span class="kt">boolean</span><span class="p">;</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">  </span><span class="nx">related?</span><span class="o">:</span><span class="w"> </span><span class="kt">Object</span><span class="p">[];</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">  </span><span class="nx">headers?</span><span class="o">:</span><span class="w"> </span><span class="kt">Record</span><span class="o">&lt;</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="o">&gt;</span><span class="p">;</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="p">}</span>
 </code></pre></div>
 <h3 id="name">name<a class="headerlink" href="#name" title="Permanent link">&para;</a></h3>
 <p>对象名称。</p>
@@ -883,6 +912,8 @@
 <p>对象的大小, 单位: 字节, 示例: <code>1024</code>。</p>
 <h3 id="url">url<a class="headerlink" href="#url" title="Permanent link">&para;</a></h3>
 <p>对象的调用链接。</p>
+<h3 id="islive">isLive<a class="headerlink" href="#islive" title="Permanent link">&para;</a></h3>
+<p>是否是直播视频流。</p>
 <h3 id="related">related<a class="headerlink" href="#related" title="Permanent link">&para;</a></h3>
 <p>相关对象, 例如: 视频的字幕文件。</p>
 <p>PS: 目前仅视频的字幕文件会从 <code>related</code> 里面获取, 匹配后缀名为 <code>.srt</code>/<code>.ass</code>/<code>.vtt</code> 的文件。</p>
