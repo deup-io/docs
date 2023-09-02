@@ -8,20 +8,20 @@
       
       
       
-        <link rel="canonical" href="https://docs.deup.io/layouts/list/">
+        <link rel="canonical" href="https://docs.deup.io/layout/grid/">
       
       
-        <link rel="prev" href="../../guide/iptv/">
+        <link rel="prev" href="../list/">
       
       
-        <link rel="next" href="../grid/">
+        <link rel="next" href="../image/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.12">
     
     
       
-        <title>列表(默认视图) - Deup Docs</title>
+        <title>网格 - Deup Docs</title>
       
     
     
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              列表(默认视图)
+              网格
             
           </span>
         </div>
@@ -363,6 +363,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../list/" class="md-nav__link">
+        列表(默认视图)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -375,23 +389,9 @@
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        列表(默认视图)
-      </a>
-      
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../grid/" class="md-nav__link">
         网格
       </a>
+      
     </li>
   
 
@@ -661,16 +661,16 @@
 
 
 
-<h1 id="_1">列表视图<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>列表视图可以展示全部类型的数据, 默认视图为列表视图, 无需特殊配置.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">class</span><span class="w"> </span><span class="nx">ListLayout</span><span class="w"> </span><span class="k">extends</span><span class="w"> </span><span class="nx">Deup</span><span class="w"> </span><span class="p">{</span>
+<h1 id="_1">网格视图<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>网格视图可以展示全部类型的数据, 可以设置默认视图为网格视图, 也可以在单个页面切换视图。</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">class</span><span class="w"> </span><span class="nx">GridLayout</span><span class="w"> </span><span class="k">extends</span><span class="w"> </span><span class="nx">Deup</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nx">config</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;列表视图&#39;</span><span class="p">,</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nx">layout</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;list&#39;</span><span class="p">,</span><span class="w"> </span><span class="c1">// 设置默认视图为列表</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;网格视图&#39;</span><span class="p">,</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nx">layout</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;grid&#39;</span><span class="p">,</span><span class="w"> </span><span class="c1">// 设置默认视图为网格</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="p">};</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">}</span>
 </code></pre></div>
-<p><img alt="" src="../../assets/layouts/list/1.png" width="200" /> <img alt="" src="../../assets/layouts/list/2.png" width="200" /> <img alt="" src="../../assets/layouts/list/3.png" width="200" /></p>
+<p><img alt="" src="../../assets/layouts/grid/1.png" width="200" /> <img alt="" src="../../assets/layouts/grid/2.png" width="200" /> <img alt="" src="../../assets/layouts/grid/3.png" width="200" /></p>
 
 
 
