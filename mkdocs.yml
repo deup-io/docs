@@ -67,10 +67,10 @@ nav:
     - Unsplash: guide/unsplash.md
     - IPTV: guide/iptv.md
   - 视图:
-    - 列表(默认视图): layouts/list.md
-    - 网格: layouts/grid.md
-    - 图片: layouts/image.md
-    - 海报: layouts/poster.md
+    - 列表(默认视图): layout/list.md
+    - 网格: layout/grid.md
+    - 图片: layout/image.md
+    - 海报: layout/poster.md
   - JS SDK 参考文档:
     - Deup: js-sdk/deup.md
     - Config: js-sdk/config.md
