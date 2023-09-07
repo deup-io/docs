@@ -536,6 +536,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#name" class="md-nav__link">
     name
   </a>
@@ -552,13 +559,6 @@
         <li class="md-nav__item">
   <a href="#isdirectory" class="md-nav__link">
     isDirectory
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#path" class="md-nav__link">
-    path
   </a>
   
 </li>
@@ -615,6 +615,13 @@
         <li class="md-nav__item">
   <a href="#related" class="md-nav__link">
     related
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra" class="md-nav__link">
+    extra
   </a>
   
 </li>
@@ -766,6 +773,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#id" class="md-nav__link">
+    id
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#name" class="md-nav__link">
     name
   </a>
@@ -782,13 +796,6 @@
         <li class="md-nav__item">
   <a href="#isdirectory" class="md-nav__link">
     isDirectory
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#path" class="md-nav__link">
-    path
   </a>
   
 </li>
@@ -850,6 +857,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#extra" class="md-nav__link">
+    extra
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#headers" class="md-nav__link">
     headers
   </a>
@@ -877,10 +891,10 @@
 
 <h1 id="_1">对象信息<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">interface</span><span class="w"> </span><span class="nb">Object</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="nx">ObjectType</span><span class="p">;</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nx">isDirectory</span><span class="o">:</span><span class="w"> </span><span class="kt">boolean</span><span class="p">;</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="nx">path?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nx">name?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="kr">type</span><span class="nx">?</span><span class="o">:</span><span class="w"> </span><span class="kt">ObjectType</span><span class="p">;</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="nx">isDirectory?</span><span class="o">:</span><span class="w"> </span><span class="kt">boolean</span><span class="p">;</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">  </span><span class="nx">thumbnail?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">  </span><span class="nx">poster?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">  </span><span class="nx">created?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
@@ -889,17 +903,18 @@
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">  </span><span class="nx">url?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span>
 <a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">  </span><span class="nx">isLive?</span><span class="o">:</span><span class="w"> </span><span class="kt">boolean</span><span class="p">;</span>
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">  </span><span class="nx">related?</span><span class="o">:</span><span class="w"> </span><span class="kt">Object</span><span class="p">[];</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">  </span><span class="nx">headers?</span><span class="o">:</span><span class="w"> </span><span class="kt">Record</span><span class="o">&lt;</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="o">&gt;</span><span class="p">;</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="p">}</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">  </span><span class="nx">extra?</span><span class="o">:</span><span class="w"> </span><span class="kt">Record</span><span class="o">&lt;</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="nx">any</span><span class="o">&gt;</span><span class="p">;</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">  </span><span class="nx">headers?</span><span class="o">:</span><span class="w"> </span><span class="kt">Record</span><span class="o">&lt;</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="o">&gt;</span><span class="p">;</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="p">}</span>
 </code></pre></div>
+<h3 id="id">id<a class="headerlink" href="#id" title="Permanent link">&para;</a></h3>
+<p>对象唯一 ID。</p>
 <h3 id="name">name<a class="headerlink" href="#name" title="Permanent link">&para;</a></h3>
-<p>对象名称。</p>
+<p>对象显示名称。</p>
 <h3 id="type">type<a class="headerlink" href="#type" title="Permanent link">&para;</a></h3>
 <p><a href="../object-type/"><code>ObjectType</code></a> 对象类型, 可选值: <code>folder</code>、<code>image</code> 等。</p>
 <h3 id="isdirectory">isDirectory<a class="headerlink" href="#isdirectory" title="Permanent link">&para;</a></h3>
 <p>是否是文件夹。</p>
-<h3 id="path">path<a class="headerlink" href="#path" title="Permanent link">&para;</a></h3>
-<p>对象的路径, 如果 <code>path</code> 的值不为 <code>null</code>, 获取对象内容时会使用 <code>path+name</code> 的值作为参数。</p>
 <h3 id="thumbnail">thumbnail<a class="headerlink" href="#thumbnail" title="Permanent link">&para;</a></h3>
 <p>对象的缩略图。</p>
 <h3 id="poster">poster<a class="headerlink" href="#poster" title="Permanent link">&para;</a></h3>
@@ -917,6 +932,8 @@
 <h3 id="related">related<a class="headerlink" href="#related" title="Permanent link">&para;</a></h3>
 <p>相关对象, 例如: 视频的字幕文件。</p>
 <p>PS: 目前仅视频的字幕文件会从 <code>related</code> 里面获取, 匹配后缀名为 <code>.srt</code>/<code>.ass</code>/<code>.vtt</code> 的文件。</p>
+<h3 id="extra">extra<a class="headerlink" href="#extra" title="Permanent link">&para;</a></h3>
+<p>额外信息, 你可以在这里存放一些自定义的信息, 例如: 文件的路径。</p>
 <h3 id="headers">headers<a class="headerlink" href="#headers" title="Permanent link">&para;</a></h3>
 <p>调用播放地址时的请求头, 示例: <code>{ 'User-Agent': '...' }</code>。如果这个字段存在, 会覆盖 <a href="../config/"><code>Config</code></a> 里面的 <code>headers</code> 字段。</p>
 

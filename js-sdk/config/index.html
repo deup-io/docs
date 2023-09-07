@@ -556,6 +556,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#pagesize" class="md-nav__link">
+    pageSize
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -772,6 +779,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#pagesize" class="md-nav__link">
+    pageSize
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -801,7 +815,8 @@
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">  </span><span class="nx">background?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="kt">string</span><span class="p">[];</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">  </span><span class="nx">headers?</span><span class="o">:</span><span class="w"> </span><span class="kt">Record</span><span class="o">&lt;</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="o">&gt;</span><span class="p">;</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">  </span><span class="nx">timeout?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="p">}</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">  </span><span class="nx">pageSize?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="p">}</span>
 </code></pre></div>
 <h3 id="name">name<a class="headerlink" href="#name" title="Permanent link">&para;</a></h3>
 <p>插件名称, 必填项。</p>
@@ -817,6 +832,8 @@
 <p>插件的请求头, 示例: <code>{ 'User-Agent': '...' }</code>。在访问第三方资源的时候会使用指定的头信息, 但是 <a href="../object/"><code>Object</code></a> 里面如果包含了 <code>headers</code> 字段, 会覆盖这里的配置。</p>
 <h3 id="timeout">timeout<a class="headerlink" href="#timeout" title="Permanent link">&para;</a></h3>
 <p>插件的执行超时时间, 单位: 毫秒, 默认: <code>5000</code>。</p>
+<h3 id="pagesize">pageSize<a class="headerlink" href="#pagesize" title="Permanent link">&para;</a></h3>
+<p>插件加载列表的分页大小, 默认: <code>20</code>。</p>
 
 
 
