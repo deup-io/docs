@@ -64,16 +64,17 @@ class MyPlugin extends Deup {
 
 ## 实现 get() 方法
 
-`get()` 方法是用来获取具体对象信息的, 参数是对象的完整路径。
+`get()` 方法是用来获取具体对象信息的, 参数是 `list()` 返回的对象信息。
 
 ```typescript
 class MyPlugin extends Deup {
   // ...
 
-  async get(path) {
+  async get(object) {
     const image = (await $storage.inputs).image;
 
     return {
+      id: '-',
       name: '测试图片',
       type: 'image',
       isDirectory: false,
@@ -85,17 +86,18 @@ class MyPlugin extends Deup {
 
 ## 实现 list() 方法
 
-`list()` 方法是用来获取对象列表的, 首页默认是空字符串 `""`。
+`list()` 方法是用来获取对象列表的, 首页默认 `object = null`。
 
 ```typescript
 class MyPlugin extends Deup {
   // ...
 
-  async list(path, offset, limit) {
+  async list(object, offset, limit) {
     const image = (await $storage.inputs).image;
 
     return [
       {
+        id: '-', // id 为必填项
         name: '测试图片',
         type: 'image',
         isDirectory: false,
@@ -114,11 +116,12 @@ class MyPlugin extends Deup {
 class MyPlugin extends Deup {
   // ...
 
-  async search(path, keyword, offset, limit) {
+  async search(object, keyword, offset, limit) {
     const image = (await $storage.inputs).image;
 
     return [
       {
+        id: '-', // id 为必填项
         name: '测试图片-搜索结果',
         type: 'image',
         isDirectory: false,
@@ -160,10 +163,11 @@ class MyPlugin extends Deup {
     return url != '123'; // url
   }
 
-  async get(path) {
+  async get(object) {
     const image = (await $storage.inputs).image;
 
     return {
+      id: '-',
       name: '测试图片',
       type: 'image',
       isDirectory: false,
@@ -171,11 +175,12 @@ class MyPlugin extends Deup {
     };
   }
 
-  async list(path, offset, limit) {
+  async list(object, offset, limit) {
     const image = (await $storage.inputs).image;
 
     return [
       {
+        id: '-',
         name: '测试图片',
         type: 'image',
         isDirectory: false,
@@ -184,11 +189,12 @@ class MyPlugin extends Deup {
     ];
   }
 
-  async search(path, keyword, offset, limit) {
+  async search(object, keyword, offset, limit) {
     const image = (await $storage.inputs).image;
 
     return [
       {
+        id: '-',
         name: '测试图片-搜索结果',
         type: 'image',
         isDirectory: false,

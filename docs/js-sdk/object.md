@@ -2,10 +2,10 @@
 
 ```typescript
 interface Object {
-  name: string;
-  type: ObjectType;
-  isDirectory: boolean;
-  path?: string;
+  id: string;
+  name?: string;
+  type?: ObjectType;
+  isDirectory?: boolean;
   thumbnail?: string;
   poster?: string;
   created?: string;
@@ -14,13 +14,18 @@ interface Object {
   url?: string;
   isLive?: boolean;
   related?: Object[];
+  extra?: Record<string, any>;
   headers?: Record<string, string>;
 }
 ```
 
+### id
+
+对象唯一 ID。
+
 ### name
 
-对象名称。
+对象显示名称。
 
 ### type
 
@@ -29,10 +34,6 @@ interface Object {
 ### isDirectory
 
 是否是文件夹。
-
-### path
-
-对象的路径, 如果 `path` 的值不为 `null`, 获取对象内容时会使用 `path+name` 的值作为参数。
 
 ### thumbnail
 
@@ -67,6 +68,10 @@ interface Object {
 相关对象, 例如: 视频的字幕文件。
 
 PS: 目前仅视频的字幕文件会从 `related` 里面获取, 匹配后缀名为 `.srt`/`.ass`/`.vtt` 的文件。
+
+### extra
+
+额外信息, 你可以在这里存放一些自定义的信息, 例如: 文件的路径。
 
 ### headers
 

@@ -11,6 +11,7 @@ interface Config {
   background?: string | string[];
   headers?: Record<string, string>;
   timeout?: number;
+  pageSize?: number;
 }
 ```
 
@@ -41,3 +42,7 @@ interface Config {
 ### timeout
 
 插件的执行超时时间, 单位: 毫秒, 默认: `5000`。
+
+### pageSize
+
+插件加载列表的分页大小, 默认: `20`。

@@ -98,14 +98,15 @@
 === "定义"
 
     ```typescript
-    abstract get(path: string): Promise<Object>
+    abstract get(object: Object): Promise<Object>
     ```
 
 === "示例"
 
     ```typescript
-    async get(path) {
+    async get(object) {
       return {
+        id: object.id,
         name: '文件名称',
         type: 'image',
         isDirectory: false,
@@ -121,20 +122,22 @@
 === "定义"
 
     ```typescript
-    abstract list(path: string, offset: number, limit: number): Promise<Object[]>
+    abstract list(object: Object, offset: number, limit: number): Promise<Object[]>
     ```
 
 === "示例"
 
     ```typescript
-    async list(path, offset, limit) {
+    async list(object, offset, limit) {
       return [
         {
+          id: '文件夹 ID',
           name: '文件夹名称',
           type: 'folder',
           isDirectory: true,
         },
         {
+          id: '文件 ID',
           name: '文件名称',
           type: 'image',
           isDirectory: false,
@@ -151,20 +154,22 @@
 === "定义"
 
     ```typescript
-    abstract search(path: string, keyword: string, offset: number, limit: number): Promise<Object[]>
+    abstract search(object: Object, keyword: string, offset: number, limit: number): Promise<Object[]>
     ```
 
 === "示例"
 
     ```typescript
-    async search(path, keyword, offset, limit) {
+    async search(object, keyword, offset, limit) {
       return [
         {
+          id: '文件夹 ID',
           name: '文件夹名称',
           type: 'folder',
           isDirectory: true,
         },
         {
+          id: '文件 ID',
           name: '文件名称',
           type: 'image',
           isDirectory: false,
