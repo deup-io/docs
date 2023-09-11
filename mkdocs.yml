@@ -70,6 +70,7 @@ nav:
     - 列表(默认视图): layout/list.md
     - 网格: layout/grid.md
     - 图片: layout/image.md
+    - 封面: layout/cover.md
     - 海报: layout/poster.md
   - JS SDK 参考文档:
     - Deup: js-sdk/deup.md
