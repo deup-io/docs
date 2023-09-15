@@ -42,7 +42,7 @@
 === "定义"
 
     ```typescript
-    public async set(key: string, value: any): Promise<void>
+    public async set(key: string, value: any): Promise<boolean>
     ```
 
 === "调用"
@@ -64,7 +64,7 @@
 === "调用"
 
     ```typescript
-    $storage.remove('token')
+    await $storage.remove('token')
     ```
 
 ### clear()
@@ -80,5 +80,5 @@
 === "调用"
 
     ```typescript
-    $storage.clear()
+    await $storage.clear()
     ```
