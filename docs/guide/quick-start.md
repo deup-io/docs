@@ -2,6 +2,14 @@
 
 本教程将带你快速创建一个简单的 Deup 插件脚本。
 
+> 感谢您阅读本教程, 期待您提供更多的插件脚本, 请在 [GitHub](https://github.com/deup-io/deup){target=_blank} 上提交您 PR。
+
+官方支持的插件:
+
+- [Alist](./alist.md)
+- [Unsplash](./unsplash.md)
+- [IPTV](./iptv.md)
+
 ## 创建一个类
 
 首先, 我们需要创建一个类, 这个类需要继承 `Deup` 类。
@@ -77,7 +85,6 @@ class MyPlugin extends Deup {
       id: '-',
       name: '测试图片',
       type: 'image',
-      isDirectory: false,
       url: image,
     };
   }
@@ -100,7 +107,6 @@ class MyPlugin extends Deup {
         id: '-', // id 为必填项
         name: '测试图片',
         type: 'image',
-        isDirectory: false,
         thumbnail: image,
       },
     ];
@@ -124,7 +130,6 @@ class MyPlugin extends Deup {
         id: '-', // id 为必填项
         name: '测试图片-搜索结果',
         type: 'image',
-        isDirectory: false,
         thumbnail: image,
       },
     ];
@@ -170,7 +175,6 @@ class MyPlugin extends Deup {
       id: '-',
       name: '测试图片',
       type: 'image',
-      isDirectory: false,
       url: image,
     };
   }
@@ -183,7 +187,6 @@ class MyPlugin extends Deup {
         id: '-',
         name: '测试图片',
         type: 'image',
-        isDirectory: false,
         thumbnail: image,
       },
     ];
@@ -197,7 +200,6 @@ class MyPlugin extends Deup {
         id: '-',
         name: '测试图片-搜索结果',
         type: 'image',
-        isDirectory: false,
         thumbnail: image,
       },
     ];
