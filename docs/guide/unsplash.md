@@ -2,7 +2,7 @@
 
 ![](../assets/images/unsplash/1.png){ width="200" } ![](../assets/images/unsplash/2.png){ width="200" } ![](../assets/images/unsplash/3.png){ width="200" }
 
-[https://raw.githubusercontent.com/deup-io/deup/master/unsplash.js](https://raw.githubusercontent.com/deup-io/deup/master/unsplash.js){target=_blank}
+[https://cdn.jsdelivr.net/gh/deup-io/deup/unsplash.js](https://cdn.jsdelivr.net/gh/deup-io/deup/unsplash.js){target=_blank}
 
 ```javascript
 /**

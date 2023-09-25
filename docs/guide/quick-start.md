@@ -4,9 +4,10 @@
 
 > 感谢您阅读本教程, 期待您提供更多的插件脚本, 请在 [GitHub](https://github.com/deup-io/deup){target=_blank} 上提交您 PR。
 
-官方支持的插件:
+目前支持的插件:
 
 - [Alist](./alist.md)
+- [Movies & TV](./movies-tv.md)
 - [Unsplash](./unsplash.md)
 - [IPTV](./iptv.md)
 

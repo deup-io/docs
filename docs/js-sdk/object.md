@@ -5,6 +5,7 @@ interface Object {
   id: string;
   name?: string;
   type?: ObjectType;
+  remark?: string;
   thumbnail?: string;
   poster?: string;
   created?: string;
@@ -29,6 +30,10 @@ interface Object {
 ### type
 
 [`ObjectType`](./object-type.md) 对象类型, 可选值: `folder`、`image` 等。
+
+### remark
+
+对象的备注信息。
 
 ### thumbnail
 

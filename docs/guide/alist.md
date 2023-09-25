@@ -2,7 +2,7 @@
 
 ![](../assets/images/alist/1.png){ width="200" } ![](../assets/images/alist/2.png){ width="200" } ![](../assets/images/alist/3.png){ width="200" }
 
-[https://raw.githubusercontent.com/deup-io/deup/master/alist.js](https://raw.githubusercontent.com/deup-io/deup/master/alist.js){target=_blank}
+[https://cdn.jsdelivr.net/gh/deup-io/deup/alist.js](https://cdn.jsdelivr.net/gh/deup-io/deup/alist.js){target=_blank}
 
 ```javascript
 /**

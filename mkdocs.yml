@@ -61,9 +61,11 @@ markdown_extensions:
 
 nav:
   - 概览: index.md
+  - 常见问题: faq.md
   - 指南:
     - 快速开始: guide/quick-start.md
     - Alist: guide/alist.md
+    - Movies & TV: guide/movies-tv.md
     - Unsplash: guide/unsplash.md
     - IPTV: guide/iptv.md
   - 视图:
