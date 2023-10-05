@@ -1,8 +1,8 @@
 # Alist
 
-![](../assets/images/alist/1.png){ width="200" } ![](../assets/images/alist/2.png){ width="200" } ![](../assets/images/alist/3.png){ width="200" }
+[https://cdn.jsdelivr.net/gh/deup-io/deup/alist.js](https://cdn.jsdelivr.net/gh/deup-io/deup/alist.js){target=_blank} [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Falist.js){ .md-button-custom style="color: #f50057;" }
 
-[https://cdn.jsdelivr.net/gh/deup-io/deup/alist.js](https://cdn.jsdelivr.net/gh/deup-io/deup/alist.js){target=_blank}
+![](../assets/images/alist/1.png){ width="200" } ![](../assets/images/alist/2.png){ width="200" } ![](../assets/images/alist/3.png){ width="200" }
 
 ```javascript
 /**

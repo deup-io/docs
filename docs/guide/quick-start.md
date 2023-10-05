@@ -6,10 +6,10 @@
 
 目前支持的插件:
 
-- [Alist](./alist.md)
-- [Movies & TV](./movies-tv.md)
-- [Unsplash](./unsplash.md)
-- [IPTV](./iptv.md)
+- [Alist](./alist.md) [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Falist.js){ .md-button-custom style="color: #f50057;" }
+- [Movies & TV (影视大全)](./movies-tv.md) [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Fmovies-tv.js){ .md-button-custom style="color: #f50057;" }
+- [Unsplash](./unsplash.md) [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Funsplash.js){ .md-button-custom style="color: #f50057;" }
+- [IPTV](./iptv.md) [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Fiptv.js){ .md-button-custom style="color: #f50057;" }
 
 ## 创建一个类
 

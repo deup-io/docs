@@ -23,6 +23,9 @@ extra:
   search:
     language: 'jp'
 
+extra_css:
+  - 'assets/css/custom.css'
+
 extra_javascript:
   - 'assets/js/baidu-tongji.js'
 
