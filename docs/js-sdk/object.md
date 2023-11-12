@@ -8,12 +8,14 @@ interface Object {
   remark?: string;
   thumbnail?: string;
   poster?: string;
+  cover?: string;
   created?: string;
   modified?: string;
   size?: number;
   url?: string;
   isLive?: boolean;
   related?: Object[];
+  options?: ObjectOptions;
   extra?: Record<string, any>;
   headers?: Record<string, string>;
 }
@@ -43,6 +45,10 @@ interface Object {
 
 对象的海报图。
 
+### cover
+
+对象的封面图。
+
 ### created
 
 对象的创建时间, 示例: `2020-01-01T00:00:00.000Z`。
@@ -59,6 +65,31 @@ interface Object {
 
 对象的调用链接。
 
+`ObjectType.IMAGE` 和 `ObjectType.WEBVIEW` 类型的对象, `url` 为链接地址, 目前支持 `blob` scheme。
+
+支持 `text` 和 `base64` 两种数据解析方式。
+
+示例:
+
+```json
+{
+  id: '-',
+  name: 'webview',
+  type: 'webview',
+  url: 'blob://text/<html><meta name="viewport" content="width=device-width,initial-scale=1"><body>Deup</body></html>',
+}
+```
+
+```json
+{
+  id: '-',
+  name: 'image',
+  type: 'image',
+  url: 'blob://base64/<base64>',
+}
+```
+
+
 ### isLive
 
 是否是直播视频流。
@@ -68,6 +99,10 @@ interface Object {
 相关对象, 例如: 视频的字幕文件。
 
 PS: 目前仅视频的字幕文件会从 `related` 里面获取, 匹配后缀名为 `.srt`/`.ass`/`.vtt` 的文件。
+
+### options
+
+[`ObjectOptions`](./object-options.md) 对象可配置项, 目前仅支持设置 `folder` 类型设置下级打开的视图等信息。
 
 ### extra
 

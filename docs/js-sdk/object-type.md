@@ -8,6 +8,7 @@ export enum ObjectType {
   VIDEO = 'video',
   AUDIO = 'audio',
   DOCUMENT = 'document',
+  WEBVIEW = 'webview',
 }
 ```
 
@@ -34,3 +35,7 @@ export enum ObjectType {
 ## DOCUMENT
 
 文档类型, `ObjectType.DOCUMENT`
+
+## WEBVIEW
+
+网页类型, `ObjectType.WEBVIEW`

@@ -7,6 +7,7 @@ interface Config {
   name: string;
   logo?: string;
   layout?: 'list' | 'grid' | 'image' | 'poster';
+  historyLayout?: 'list' | 'grid' | 'image' | 'poster';
   color?: string;
   background?: string | string[];
   headers?: Record<string, string>;
@@ -26,6 +27,10 @@ interface Config {
 ### layout
 
 插件的默认视图, 可选项, 默认: `list`。支持的视图类型有: `list`、`grid`、`image`、`poster`。
+
+### historyLayout
+
+历史记录的默认视图, 可选项, 默认: `list`。支持的视图类型有: `list`、`grid`、`image`、`poster`。
 
 ### color
 
