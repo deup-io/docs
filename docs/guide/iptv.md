@@ -1,6 +1,6 @@
 # IPTV
 
-[https://cdn.jsdelivr.net/gh/deup-io/deup/iptv.js](https://cdn.jsdelivr.net/gh/deup-io/deup/iptv.js){target=_blank} [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Fiptv.js){ .md-button-custom style="color: #f50057;" }
+[https://cdn.jsdelivr.net/gh/deup-io/deup/examples/iptv.js](https://cdn.jsdelivr.net/gh/deup-io/deup/examples/iptv.js){target=_blank} [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Fexamples%2Fiptv.js){ .md-button-custom style="color: #f50057;" }
 
 ![](../assets/images/iptv/1.png){ width="200" } ![](../assets/images/iptv/3.png){ width="200" } ![](../assets/images/iptv/2.png){ width="200" }
 

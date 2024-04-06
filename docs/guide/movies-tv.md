@@ -1,8 +1,8 @@
 # Movies & TV
 
-[https://cdn.jsdelivr.net/gh/deup-io/deup/movies-tv.js](https://cdn.jsdelivr.net/gh/deup-io/deup/movies-tv.js){target=_blank} [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Fmovies-tv.js){ .md-button-custom style="color: #f50057;" }
+[https://cdn.jsdelivr.net/gh/deup-io/deup/examples/movies-tv.js](https://cdn.jsdelivr.net/gh/deup-io/deup/examples/movies-tv.js){target=_blank} [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Fexamples%2Fmovies-tv.js){ .md-button-custom style="color: #f50057;" }
 
-国内播放源: [https://cdn.jsdelivr.net/gh/deup-io/deup/movies-tv-cn.js](https://cdn.jsdelivr.net/gh/deup-io/deup/movies-tv-cn.js){target=_blank} [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Fmovies-tv-cn.js){ .md-button-custom style="color: #f50057;" }
+国内播放源: [https://cdn.jsdelivr.net/gh/deup-io/examples/deup/movies-tv-cn.js](https://cdn.jsdelivr.net/gh/deup-io/deup/examples/movies-tv-cn.js){target=_blank} [添加](https://deup.io/plugins/add?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdeup-io%2Fdeup%2Fexamples%2Fmovies-tv-cn.js){ .md-button-custom style="color: #f50057;" }
 
 > PS: 优势是国内的 CDN 地址, 但是没有实现分类筛选功能, 如果您有兴趣感谢您实现并提交 PR。
 
